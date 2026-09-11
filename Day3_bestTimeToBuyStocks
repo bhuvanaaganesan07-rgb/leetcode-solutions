@@ -9,4 +9,5 @@ class Solution:
             profit=current_price-min_price
             if profit>max_profit:
                 max_profit=profit
+                
         return max_profit
